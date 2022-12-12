@@ -8,5 +8,6 @@ services:
       - 4506
   attaquant:
     image: praqma/network-multitool:alpine-extra
+    container_name: attaquant
     ports:
       - 3000
