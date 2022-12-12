@@ -1,12 +1,6 @@
 #Download base image ubuntu 20.04
 FROM ubuntu:20.04
 
-# LABEL about the custom image
-LABEL maintainer="uzo"
-LABEL version="0.1"
-LABEL description="This is custom Docker Image for \
-salt version 3002."
-
 # Disable Prompt During Packages Installation ( you no loonger need -y)
 ARG DEBIAN_FRONTEND=noninteractive
 
