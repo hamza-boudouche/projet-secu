@@ -1,0 +1,12 @@
+services:
+  saltserver:
+    build: .
+    tty: true
+    ports:
+      - 8000
+      - 4505
+      - 4506
+  attaquant:
+    image: praqma/network-multitool:alpine-extra
+    ports:
+      - 3000
